@@ -12,6 +12,8 @@
 
 **Ship complex tasks with confidence — not one-shot luck.**
 
+Claude Code has '/loop', why we don't have!
+If you want to moothly **loop** feature in Opencode just like in Claude, **This is FOR YOU**
 `oc-loop` turns opencode into a controlled execution engine with resumable loops, explicit run control, and multi-session concurrency.
 
 ## Why oc-loop
