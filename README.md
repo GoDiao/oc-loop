@@ -33,6 +33,50 @@
 /oc-cancel --runId=<run-id>
 ```
 
+## Install
+
+### 1) Clone the repository
+
+```bash
+git clone https://github.com/GoDiao/oc-loop.git
+cd oc-loop
+```
+
+### 2) Install dependencies
+
+```bash
+bun install
+```
+
+### 3) Register the plugin in opencode config
+
+Edit `~/.config/opencode/opencode.json` and add your local plugin entry path:
+
+```json
+{
+  "plugin": [
+    "file:///ABSOLUTE_PATH_TO/oc-loop/src/index.ts"
+  ]
+}
+```
+
+Example on Windows:
+
+```json
+{
+  "plugin": [
+    "file:///D:/dev/oc-loop/src/index.ts"
+  ]
+}
+```
+
+### 3) Restart opencode and verify
+
+Commands should be available:
+- `/oc-loop`
+- `/oc-watch`
+- `/oc-list`
+
 ## Full docs
 
 - [Docs Index](docs/README.md)

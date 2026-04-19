@@ -2,3 +2,5 @@ node_modules/
 .oc-loop/
 .tmp-oc-*
 .DS_Store
+
+docs/
