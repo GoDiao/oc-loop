@@ -1,6 +1,12 @@
 # oc-loop
 
 <p align="center">
+  <img src="https://img.shields.io/github/stars/GoDiao/oc-loop?style=for-the-badge" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/license/GoDiao/oc-loop?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/opencode-plugin-blue?style=for-the-badge" alt="opencode plugin"/>
+</p>
+
+<p align="center">
   <img src="assets/promo.png" alt="oc-loop promo" width="1200" style="border-radius: 16px; border: 1px solid #2a2a2a; box-shadow: 0 12px 32px rgba(0,0,0,.35);" />
 </p>
 
