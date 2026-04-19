@@ -1,5 +1,9 @@
 # oc-loop
 
+<p align="center">
+  <img src="assets/promo.png" alt="oc-loop promo" width="1200" style="border-radius: 16px; border: 1px solid #2a2a2a; box-shadow: 0 12px 32px rgba(0,0,0,.35);" />
+</p>
+
 **Ship complex tasks with confidence — not one-shot luck.**
 
 `oc-loop` turns opencode into a controlled execution engine with resumable loops, explicit run control, and multi-session concurrency.
@@ -50,22 +54,26 @@ bun install
 
 ### 3) Register the plugin in opencode config
 
-Edit `~/.config/opencode/opencode.json` and add your local plugin entry path:
+Edit `~/.config/opencode/opencode.json` and add your local plugin path.
+
+Both forms are supported (pick one):
+- Directory path (recommended): `file:///ABSOLUTE_PATH_TO/oc-loop`
+- Explicit entry file: `file:///ABSOLUTE_PATH_TO/oc-loop/src/index.ts`
 
 ```json
 {
   "plugin": [
-    "file:///ABSOLUTE_PATH_TO/oc-loop/src/index.ts"
+    "file:///ABSOLUTE_PATH_TO/oc-loop"
   ]
 }
 ```
 
-Example on Windows:
+Example on Windows (your path):
 
 ```json
 {
   "plugin": [
-    "file:///D:/dev/oc-loop/src/index.ts"
+    "file:///E:/dev/oc-loop"
   ]
 }
 ```
